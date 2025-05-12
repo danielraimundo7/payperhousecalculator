@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+
+<body>
+<div class="container">
+    <div class='item-1'>
+       
+    <h3>Hours and Pay</h3>
+
+    <input type="number" id="sqft" placeholder="sqft">
+
+    <input type="number" id="bath" placeholder="# of bathrooms">
+
+    <input type="number" id="workers" placeholder="# of workers" min="1" max="5">
+
+    <button id="btn">calculate</button>
+    </div>
+
+    <div class="item-2">
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>weekly</th>
+                <th>bi-weekly</th>
+                <th>tri-weekly</th>
+                <th>monthly</th>
+                <th>initial</th>
+                <th>one-time</th>
+                <th>move-out</th>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td id="weeklytime"></td>
+                <td id="biweeklytime"></td>
+                <td id="triweeklytime"></td>
+                <td id="monthlytime"></td>
+                <td id="initialtime"></td>
+                <td id="one-timetime"></td>
+                <td id="move-outtime"></td>
+
+            </tr>
+            <tr>
+                <td>Converted Time</td>
+                <td id="convertedweeklytime"></td>
+                <td id="convertedbiweeklytime"></td>
+                <td id="convertedtriweeklytime"></td>
+                <td id="convertedmonthlytime"></td>
+                <td id="convertedinitialtime"></td>
+                <td id="convertedone-timetime"></td>
+                <td id="convertedmove-outtime"></td>
+
+            </tr>
+            <tr>
+                <td>Team Lead Pay</td>
+                <td id="teamleadpayweekly"></td>
+                <td id="teamleadpaybiweekly"></td>
+                <td id="teamleadpaytriweekly"></td>
+                <td id="teamleadpaymonthly"></td>
+                <td id="teamleadpayinitial"></td>
+                <td id="teamleadpayone-time"></td>
+                <td id="teamleadpaymove-out"></td>
+
+            </tr>
+            <tr>
+                <td>Assistant Pay</td>
+                <td id="assistantpayweekly"></td>
+                <td id="assistantpaybiweekly"></td>
+                <td id="assistantpaytriweekly"></td>
+                <td id="assistantpaymonthly"></td>
+                <td id="assistantpayinitial"></td>
+                <td id="assistantpayone-time"></td>
+                <td id="assistantpaymove-out"></td>
+            </tr>
+            <tr>
+                <td>Total Pay</td>
+                <td id="totalpayweekly"></td>
+                <td id="totalpaybiweekly"></td>
+                <td id="totalpaytriweekly"></td>
+                <td id="totalpaymonthly"></td>
+                <td id="totalpayinitial"></td>
+                <td id="totalpayone-time"></td>
+                <td id="totalpaymove-out"></td>
+            </tr>
+            <tr>
+                <td>Profit</td>
+                <td id="profitweekly"></td>
+                <td id="profitbiweekly"></td>
+                <td id="profittriweekly"></td>
+                <td id="profitmonthly"></td>
+                <td id="profitinitial"></td>
+                <td id="profitone-time"></td>
+                <td id="profitmove-out"></td>
+            </tr>
+            <td>Profit Margin</td>
+                <td id="profitMarginweekly"></td>
+                <td id="profitMarginbiweekly"></td>
+                <td id="profitMargintriweekly"></td>
+                <td id="profitMarginmonthly"></td>
+                <td id="profitMargininitial"></td>
+                <td id="profitMarginone-time"></td>
+                <td id="profitMarginmove-out"></td>
+            </tr>
+        </table>
+
+    </div>
+    <div id="item-3">
+        <input type="number" id="price" placeholder="price">
+        
+
+         <div>
+             <input type="number" id="discount" placeholder="discount">
+            <label class="radio-label">
+          <input type="radio" name="discount" class= 'radio'> %
+          </label>
+          <label class="radio-label">
+          <input type="radio" name="discount" class= 'radio'> number
+          </label>
+          </div>
+    </div>
+    </div>
+   
+</div>
+
+ 
+
+<script src="index.js">
+</script>
+</body>

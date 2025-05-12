@@ -1,0 +1,98 @@
+body {
+background-image: linear-gradient(to bottom right, hsl(237, 37%, 37%) , hsl(237, 36%, 10%) 75%);
+min-height: 100vh;
+min-width: 100vw;
+overflow: none;
+
+}
+
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+   grid-gap: 50px;
+   align-items: center;
+    
+  
+    
+}
+
+
+h1{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    color: white;
+}
+
+
+input {
+    color:white;
+    background-color:hsl(236, 63%, 15%);
+
+
+    }
+
+
+input::placeholder {
+        color: white;
+    
+        
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    color: aliceblue;
+    background-color:hsl(236, 63%, 15%);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.item-1 {
+    margin-right: 25%;
+}
+
+
+.item-2 {
+    color: aliceblue;
+   /* background-color:hsl(236, 63%, 15%);*/
+    font-family: arial, sans-serif;
+    margin-top: 20%;
+   
+}
+
+ 
+
+th {
+    font-weight: bolder;
+}
+
+th, td {
+    border: 2px solid hsl(0, 0%, 60%);
+    background-color:  hsla(0, 0%, 25%, 0.849);
+}
+
+
+.radio-label {
+    color: whitesmoke;
+}
+
+.radio:hover {
+    cursor: pointer;
+}
+
+
+
