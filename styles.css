@@ -98,9 +98,6 @@ th, td {
 
 body {
 background-image: linear-gradient(to bottom right, hsl(182, 37%, 37%) , hsl(182, 37%, 17%) 75%);
-min-height: 100vh;
-min-width: 100vw;
-overflow: none;
 
 }
 
