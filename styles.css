@@ -2,7 +2,7 @@ body {
 background-image: linear-gradient(to bottom right, hsl(237, 37%, 37%) , hsl(237, 36%, 10%) 75%);
 min-height: 100vh;
 min-width: 100vw;
-overflow: none;
+overflow: hidden;
 
 }
 
@@ -12,15 +12,10 @@ overflow: none;
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
-   grid-gap: 50px;
-   align-items: center;
-    
-  
-    
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 1fr); ;
+    align-items: center;
 }
-
 
 h1{
     color:white;
@@ -62,7 +57,8 @@ button:hover {
 }
 
 .item-1 {
-    margin-right: 25%;
+    
+  
 }
 
 
@@ -70,9 +66,52 @@ button:hover {
     color: aliceblue;
    /* background-color:hsl(236, 63%, 15%);*/
     font-family: arial, sans-serif;
-    margin-top: 20%;
+   
    
 }
+
+.item-3 {
+    color: aliceblue;
+   /* background-color:hsl(236, 63%, 15%);*/
+    font-family: arial, sans-serif;
+   
+   
+}
+
+.item-4 {
+    color: aliceblue;
+   /* background-color:hsl(236, 63%, 15%);*/
+    font-family: arial, sans-serif;
+   
+   
+}
+
+.item-5 {
+    color: aliceblue;
+   /* background-color:hsl(236, 63%, 15%);*/
+    font-family: arial, sans-serif;
+   
+   
+}
+
+.item-6 {
+    color: aliceblue;
+   /* background-color:hsl(236, 63%, 15%);*/
+    font-family: arial, sans-serif;
+   
+   
+}
+
+.item-7 {
+    color: aliceblue;
+   /* background-color:hsl(236, 63%, 15%);*/
+    font-family: arial, sans-serif;
+   
+   
+}
+
+
+
 
  
 
@@ -94,13 +133,12 @@ th, td {
     cursor: pointer;
 }
 
-@media (max-width: 500px) {
 
-body {
-background-image: linear-gradient(to bottom right, hsl(182, 37%, 37%) , hsl(182, 37%, 17%) 75%);
 
-}
 
-}
+
+
+
+
 
 
