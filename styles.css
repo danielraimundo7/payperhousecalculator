@@ -58,7 +58,7 @@ button:hover {
 
 .item-1 {
     
-  
+
 }
 
 
@@ -98,8 +98,7 @@ button:hover {
     color: aliceblue;
    /* background-color:hsl(236, 63%, 15%);*/
     font-family: arial, sans-serif;
-   
-   
+    
 }
 
 .item-7 {
@@ -107,13 +106,8 @@ button:hover {
    /* background-color:hsl(236, 63%, 15%);*/
     font-family: arial, sans-serif;
    
-   
 }
 
-
-
-
- 
 
 th {
     font-weight: bolder;
@@ -132,6 +126,8 @@ th, td {
 .radio:hover {
     cursor: pointer;
 }
+
+
 
 
 
