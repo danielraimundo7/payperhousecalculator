@@ -51,7 +51,7 @@ input::-webkit-inner-spin-button {
 
 
 .item-1 {
-    margin: 0 auto;
+   
     
 
 }
@@ -61,7 +61,7 @@ input::-webkit-inner-spin-button {
     color: aliceblue;
    /* background-color:hsl(236, 63%, 15%);*/
     font-family: arial, sans-serif;
-     margin: 0 auto;
+    
    
    
 }
@@ -70,7 +70,7 @@ input::-webkit-inner-spin-button {
     color: aliceblue;
    /* background-color:hsl(236, 63%, 15%);*/
     font-family: arial, sans-serif;
-     margin: 0 auto;
+    
    
    
 }
@@ -79,7 +79,7 @@ input::-webkit-inner-spin-button {
     color: aliceblue;
    /* background-color:hsl(236, 63%, 15%);*/
     font-family: arial, sans-serif;
-     margin: 0 auto;
+    
    
 }
 
@@ -88,7 +88,7 @@ input::-webkit-inner-spin-button {
     color: aliceblue;
    /* background-color:hsl(236, 63%, 15%);*/
     font-family: arial, sans-serif;
-     margin: 0 auto;
+    
    
    
 }
@@ -97,7 +97,7 @@ input::-webkit-inner-spin-button {
     color: aliceblue;
    /* background-color:hsl(236, 63%, 15%);*/
     font-family: arial, sans-serif;
-     margin: 0 auto;
+     
     
 }
 
@@ -105,7 +105,7 @@ input::-webkit-inner-spin-button {
     color: aliceblue;
    /* background-color:hsl(236, 63%, 15%);*/
     font-family: arial, sans-serif;
-     margin: 0 auto;
+    
    
 }
 
@@ -138,6 +138,51 @@ th, td {
 }
 
 
+@media (max-width: 500px) {
+.item-1 {
+     margin: 0 auto;
+    
+
+}
+
+
+.item-2 {
+
+     margin: 0 auto;
+   
+   
+}
+
+.item-3 {
+  
+     margin: 0 auto;
+   
+   
+}
+
+.item-4 {
+
+     margin: 0 auto;
+   
+}
+
+
+.item-5 {
+   
+     margin: 0 auto;
+   
+   
+}
+
+.item-6 {
+   
+     margin: 0 auto;
+    
+}
+
+.item-7 {
+ 
+     margin: 0 auto;
 
 
 
@@ -148,3 +193,5 @@ th, td {
 
 
 
+
+} }
