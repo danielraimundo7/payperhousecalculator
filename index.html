@@ -12,133 +12,141 @@
         <div class='item-1'>
             <h3>Hours and Pay</h3>
          </div>
+         <div class="wrapper-container">
+
+<div class= "form-container">
+                <div class='item-2'> 
+                    <input type="number" id="sqft" placeholder="sqft">
+                </div>
+            
+                <div class='item-3'>
+                    <input type="number" id="bath" placeholder="# of bathrooms">
+                </div>
+
+                <div class='item-4'> 
+                    <input type="number" id="workers" placeholder="# of workers" min="1" max="5">
+                </div>
+
+                <div class="item-5">
+                    <input type="number" id="price" placeholder="price">
+                </div>
+
+                <div class="item-6">
+                    <input type="number" id="discount" placeholder="discount">
+                </div>
+
+                <div class="item-7">
+                    <label class="radio-label">
+                <input type="radio" name="discount" class= 'radio'> %
+                </label>
+                <label class="radio-label">
+                <input type="radio" name="discount" class= 'radio'> number
+                </label>
+                </div>
+            </div>
 
 
-        <div class='item-2'> 
-            <input type="number" id="sqft" placeholder="sqft">
-        </div>
-    
-        <div class='item-3'>
-            <input type="number" id="bath" placeholder="# of bathrooms">
-        </div>
+            <div class="table-container">
+                <table>
+                    <tr>
+                        <th>Category</th>
+                        <th>weekly</th>
+                        <th>bi-weekly</th>
+                        <th>tri-weekly</th>
+                        <th>monthly</th>
+                        <th>initial</th>
+                        <th>one-time</th>
+                        <th>move-out</th>
+                    </tr>
 
-        <div class='item-4'> 
-            <input type="number" id="workers" placeholder="# of workers" min="1" max="5">
-        </div>
+                    <tr>
+                        <td>Time</td>
+                        <td id="weeklytime">&nbsp;</td>
+                        <td id="biweeklytime">&nbsp;</td>
+                        <td id="triweeklytime">&nbsp;</td>
+                        <td id="monthlytime">&nbsp;</td>
+                        <td id="initialtime">&nbsp;</td>
+                        <td id="one-timetime">&nbsp;</td>
+                        <td id="move-outtime">&nbsp;</td>
 
-        <div class="item-5">
-            <input type="number" id="price" placeholder="price">
-        </div>
+                    </tr>
 
-        <div class="item-6">
-            <input type="number" id="discount" placeholder="discount">
-        </div>
+                    <tr>
+                        <td>Converted Time</td>
+                        <td id="convertedweeklytime">&nbsp;</td>
+                        <td id="convertedbiweeklytime">&nbsp;</td>
+                        <td id="convertedtriweeklytime">&nbsp;</td>
+                        <td id="convertedmonthlytime">&nbsp;</td>
+                        <td id="convertedinitialtime">&nbsp;</td>
+                        <td id="convertedone-timetime">&nbsp;</td>
+                        <td id="convertedmove-outtime">&nbsp;</td>
 
-        <div class="item-7">
-            <label class="radio-label">
-          <input type="radio" name="discount" class= 'radio'> %
-          </label>
-          <label class="radio-label">
-          <input type="radio" name="discount" class= 'radio'> number
-          </label>
+                    </tr>
+
+                    <tr>
+                        <td>Team Lead Pay</td>
+                        <td id="teamleadpayweekly">&nbsp;</td>
+                        <td id="teamleadpaybiweekly">&nbsp;</td>
+                        <td id="teamleadpaytriweekly">&nbsp;</td>
+                        <td id="teamleadpaymonthly">&nbsp;</td>
+                        <td id="teamleadpayinitial">&nbsp;</td>
+                        <td id="teamleadpayone-time">&nbsp;</td>
+                        <td id="teamleadpaymove-out">&nbsp;</td>
+
+                    </tr>
+                    
+                    <tr>
+                        <td>Assistant Pay</td>
+                        <td id="assistantpayweekly">&nbsp;</td>
+                        <td id="assistantpaybiweekly">&nbsp;</td>
+                        <td id="assistantpaytriweekly">&nbsp;</td>
+                        <td id="assistantpaymonthly">&nbsp;</td>
+                        <td id="assistantpayinitial">&nbsp;</td>
+                        <td id="assistantpayone-time">&nbsp;</td>
+                        <td id="assistantpaymove-out">&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td>Total Pay</td>
+                        <td id="totalpayweekly">&nbsp;</td>
+                        <td id="totalpaybiweekly">&nbsp;</td>
+                        <td id="totalpaytriweekly">&nbsp;</td>
+                        <td id="totalpaymonthly">&nbsp;</td>
+                        <td id="totalpayinitial">&nbsp;</td>
+                        <td id="totalpayone-time">&nbsp;</td>
+                        <td id="totalpaymove-out">&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td>Profit</td>
+                        <td id="profitweekly">&nbsp;</td>
+                        <td id="profitbiweekly">&nbsp;</td>
+                        <td id="profittriweekly">&nbsp;</td>
+                        <td id="profitmonthly">&nbsp;</td>
+                        <td id="profitinitial">&nbsp;</td>
+                        <td id="profitone-time">&nbsp;</td>
+                        <td id="profitmove-out">&nbsp;</td>
+                    </tr>
+
+                    <tr>
+                        <td>Profit Margin</td>
+                        <td id="profitMarginweekly">&nbsp;</td>
+                        <td id="profitMarginbiweekly">&nbsp;</td>
+                        <td id="profitMargintriweekly">&nbsp;</td>
+                        <td id="profitMarginmonthly">&nbsp;</td>
+                        <td id="profitMargininitial">&nbsp;</td>
+                        <td id="profitMarginone-time">&nbsp;</td>
+                        <td id="profitMarginmove-out">&nbsp;</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            
           </div>
     
 
-        <div class="item-8">
-            <table>
-                <tr>
-                    <th>Category</th>
-                    <th>weekly</th>
-                    <th>bi-weekly</th>
-                    <th>tri-weekly</th>
-                    <th>monthly</th>
-                    <th>initial</th>
-                    <th>one-time</th>
-                    <th>move-out</th>
-                </tr>
-
-                <tr>
-                    <td>Time</td>
-                    <td id="weeklytime"></td>
-                    <td id="biweeklytime"></td>
-                    <td id="triweeklytime"></td>
-                    <td id="monthlytime"></td>
-                    <td id="initialtime"></td>
-                    <td id="one-timetime"></td>
-                    <td id="move-outtime"></td>
-
-                 </tr>
-
-                <tr>
-                    <td>Converted Time</td>
-                    <td id="convertedweeklytime"></td>
-                    <td id="convertedbiweeklytime"></td>
-                    <td id="convertedtriweeklytime"></td>
-                    <td id="convertedmonthlytime"></td>
-                    <td id="convertedinitialtime"></td>
-                    <td id="convertedone-timetime"></td>
-                    <td id="convertedmove-outtime"></td>
-
-                </tr>
-
-                <tr>
-                    <td>Team Lead Pay</td>
-                    <td id="teamleadpayweekly"></td>
-                    <td id="teamleadpaybiweekly"></td>
-                    <td id="teamleadpaytriweekly"></td>
-                    <td id="teamleadpaymonthly"></td>
-                    <td id="teamleadpayinitial"></td>
-                    <td id="teamleadpayone-time"></td>
-                    <td id="teamleadpaymove-out"></td>
-
-                </tr>
-                
-                <tr>
-                    <td>Assistant Pay</td>
-                    <td id="assistantpayweekly"></td>
-                    <td id="assistantpaybiweekly"></td>
-                    <td id="assistantpaytriweekly"></td>
-                    <td id="assistantpaymonthly"></td>
-                    <td id="assistantpayinitial"></td>
-                    <td id="assistantpayone-time"></td>
-                    <td id="assistantpaymove-out"></td>
-                </tr>
-
-                <tr>
-                    <td>Total Pay</td>
-                    <td id="totalpayweekly"></td>
-                    <td id="totalpaybiweekly"></td>
-                    <td id="totalpaytriweekly"></td>
-                    <td id="totalpaymonthly"></td>
-                    <td id="totalpayinitial"></td>
-                    <td id="totalpayone-time"></td>
-                    <td id="totalpaymove-out"></td>
-                </tr>
-
-                <tr>
-                    <td>Profit</td>
-                    <td id="profitweekly"></td>
-                    <td id="profitbiweekly"></td>
-                    <td id="profittriweekly"></td>
-                    <td id="profitmonthly"></td>
-                    <td id="profitinitial"></td>
-                    <td id="profitone-time"></td>
-                    <td id="profitmove-out"></td>
-                </tr>
-
-                <tr>
-                    <td>Profit Margin</td>
-                    <td id="profitMarginweekly"></td>
-                    <td id="profitMarginbiweekly"></td>
-                    <td id="profitMargintriweekly"></td>
-                    <td id="profitMarginmonthly"></td>
-                    <td id="profitMargininitial"></td>
-                    <td id="profitMarginone-time"></td>
-                    <td id="profitMarginmove-out"></td>
-                </tr>
-            </table>
-
-        </div>
+        
 
         <div  class="button">
             <button id="btn">calculate</button>
@@ -147,7 +155,7 @@
     
     </div>
    
-</div>
+
 
  
 
