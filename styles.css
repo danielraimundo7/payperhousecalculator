@@ -226,6 +226,10 @@ button:hover {
         min-width: auto;     /* override min-width: 100vw */
         overflow-x: hidden;  /* allow background to extend, no cutoff */
     }
+
+     .container{
+        padding-bottom: env(safe-area-inset-bottom, 80px);
+     }
     
 
 
@@ -233,6 +237,7 @@ button:hover {
         flex-direction: column;
         align-items: center; /* center items horizontally */
         padding-left: 0; /* remove the left padding */
+        padding-bottom: 100px;
         gap: 10px; /* smaller gap for mobile */
         height: 100%;
 
@@ -270,7 +275,7 @@ button:hover {
 
 .table-container th,
 .table-container td {
-       white-space: nowrap; /* keep text horizontal */
+    white-space: nowrap; /* keep text horizontal */
     font-size: 0.75rem;  /* slightly smaller for better fit */
     padding: 8px 10px;
     text-align: center;
