@@ -14,7 +14,8 @@ overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5%;
+    padding: 10px;   /* fixed padding instead of % — avoids overflow! */
+    box-sizing: border-box;  /* ensures padding is inside the width/height */
     gap: 20px; /* space between items */
 }
 
@@ -201,7 +202,14 @@ button:hover {
 @media (max-width: 500px) {
 
 
- .wrapper-container {
+    body {
+        min-width: auto;     /* override min-width: 100vw */
+        overflow-x: hidden;  /* allow background to extend, no cutoff */
+    }
+    
+
+
+    .wrapper-container {
         flex-direction: column;
         align-items: center; /* center items horizontally */
         padding-left: 0; /* remove the left padding */
@@ -242,6 +250,10 @@ button:hover {
     table-layout: auto; /* optional: more flexible column widths */
 }
 
+
+.item-1 {
+    margin-top: auto;
+} 
 
 
 
