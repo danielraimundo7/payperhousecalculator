@@ -277,8 +277,34 @@ button:hover {
 
 
 
+button {
+    color: aliceblue;
+    background-color: hsl(236, 63%, 15%);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+
+}
+ button:active {
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    backdrop-filter: blur(4px);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 
 
 
 
-} 
+
