@@ -239,35 +239,45 @@ button:hover {
         
     }
 
-      .table-container {
-        order: 1; /* show table first */
-        width: 100%; /* make table full width on small screens */
-        max-width: 100%;
-        max-height: 40vh;    /* important: constrain height */
-        overflow-x: auto;    /* table can scroll horizontally */
-        font-size: 0.8rem;
-        flex: none;
-        margin-bottom: 20px;  /* Give space between table and form */
-        margin-top: 20px;
+      
 
-
-    
-    }
 
     .form-container {
         order: 2; /* show form second */
         width: 100%; /* make form full width */
         padding: 10px;
-
-
-      
-    
     }
 
 
-    .table-container table {
-    min-width: 800px;   /* force minimum width so columns stay readable */
-    table-layout: auto; /* optional: more flexible column widths */
+    .table-container {
+    order: 1;
+    width: 100%;
+    max-width: 100%;
+    max-height: 40vh;    /* limit height */
+    overflow-y: auto;    /* allow vertical scroll */
+    overflow-x: auto;    /* allow horizontal scroll */
+    font-size: 0.8rem;
+    flex: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+
+.table-container table {
+    min-width: 800px;    /* force table to be wide enough */
+    table-layout: auto;  /* let columns size naturally */
+    }
+
+
+.table-container th,
+.table-container td {
+       white-space: nowrap; /* keep text horizontal */
+    font-size: 0.75rem;  /* slightly smaller for better fit */
+    padding: 8px 10px;
+    text-align: center;
+    overflow: hidden;    /* hide accidental overflow */
+    text-overflow: ellipsis; /* add ... if text is too long */
+
+       
 }
 
 
